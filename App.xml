@@ -7,3 +7,11 @@ class Main {
     i = 5;
     System.out.println("Constructor is called");
   }
+# new method added by praveen in feature8.3
+public static void main(String[] args) {
+
+    // calling the constructor without any parameter
+    Main obj = new Main();
+    System.out.println("Value of i: " + obj.i);
+  }
+}
